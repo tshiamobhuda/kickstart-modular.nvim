@@ -145,6 +145,9 @@ return {
         -- tsserver = {},
         --
 
+        -- PHP
+        phpactor = {},
+
         lua_ls = {
           -- cmd = {...},
           -- filetypes { ...},
@@ -201,6 +204,9 @@ return {
           end,
         },
       }
+
+      -- attempt to install nixd lsp
+      require('lspconfig').nixd.setup {}
     end,
   },
 }

@@ -1,9 +1,4 @@
 return {
-  -- Disables tokyonight plugin
-  {
-    'floke/tokyonight.nvim',
-    enabled = false,
-  },
   {
     'catppuccin/nvim',
     name = 'catppuccin',

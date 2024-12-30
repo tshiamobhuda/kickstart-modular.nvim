@@ -3,6 +3,7 @@ return {
     'catppuccin/nvim',
     name = 'catppuccin',
     priority = 1001,
+    enabled = false,
     init = function()
       vim.cmd.colorscheme 'catppuccin'
     end,
